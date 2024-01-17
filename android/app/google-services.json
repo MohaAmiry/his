@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "373097018855",
+    "project_id": "his-database",
+    "storage_bucket": "his-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373097018855:android:a51e4bec071e51dcd43942",
+        "android_client_info": {
+          "package_name": "com.example.his"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu7T3-0_vE1sNT4XblF7Bh06hM1YJunNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
