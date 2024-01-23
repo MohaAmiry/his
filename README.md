@@ -10,26 +10,28 @@ This system is a mediator between window and door companies and customers. The c
 
 # Features
 ## Functional Features
-### Admin features
-- activate/deactivate companies
-- approve/deny companies' registration
-- browse users' list
-### company features
-- choose available services, materials, and mark prices of materials per cm
-- accept/deny customers' requests
-- chat with customers
-- edit services (add, remove, change prices).
-- edit contact data.
-### customer features
-- request custom orders for doors/windows with parameters like colors, width, height, materials, handles.
-- see automatically generated offers from a company for the selected parameters.
-- choose an offer and send a request to the company.
-- chat with companies.
+### Admin Features
+- Activate/deactivate companies
+- Approve/deny companies' registration
+- Browse users' list
+### Company Features
+- Choose available services, materials, and mark prices of materials per cm.
+- Accept/deny customers' quotes' requests.
+- Chat with customers.
+- Edit services (add, remove, change prices).
+- Edit contact data.
+### Customer Features
+- Request custom orders for doors/windows with parameters like colors, width, height, materials, handles.
+- See automatically generated offers from a company for the selected parameters.
+- Choose an offer and send a quote request to the company.
+- Chat with companies.
+- Rate the service of a company.
 
-## Non-Functional features
+## Non-Functional Features
 - companies can only login if activated.
 - all kinds of user errors are handled.
 - user receives pop-up messages for their actions with more than 20 different messages for various scenarios.
+- the company cannot end a service request unless it is rated by the customer and ended by the customer.
 
 # Architecture
 This system has a well-designed architecture with no dependencies between features. The system uses mvvm and feature-driven architecture, where each feature has "presentation, data, domain" layers. The features are independent of each other, except for shared units, which are top-level.
